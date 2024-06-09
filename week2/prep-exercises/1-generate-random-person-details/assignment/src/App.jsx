@@ -1,7 +1,7 @@
 import './App.css';
-import PersonController from './personController.js';
-import Person from './person.js';
-import Button from './Button.js';
+import PersonController from './personController.jsx';
+import Person from './person.jsx';
+import Button from './Button.jsx';
 
 function App() {
   const { personData, getNewPerson } = PersonController();
