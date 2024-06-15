@@ -2,5 +2,8 @@
   "type": "module",
   "dependencies": {
     "node": "^20.14.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.11.0"
   }
 }
