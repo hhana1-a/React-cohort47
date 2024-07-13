@@ -6,17 +6,12 @@ import { useState } from 'react';
 import { FavProvider } from './favContext';
 import FavPage from './favoritesPage.jsx';
 
-
-import MyComponent from './MyComponent';
-
-
 function App() {
   const [activeProductInfo, setActiveProductInfo] = useState({});
 
   return (
     <div className='App'>
 
-      {/* <MyComponent/> */}
       <FavProvider>
        <Router>
         <Routes>
@@ -31,4 +26,3 @@ function App() {
 }
 
 export default App;
-

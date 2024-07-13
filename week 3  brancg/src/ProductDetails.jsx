@@ -22,7 +22,7 @@ function ProductDetailPage({ activeProductInfo }) {
           <p className='product-description'>{activeProductInfo.description}</p>
           <div className='favorite-btn-container'>
             <img  className='heart_icon' src={isFavorite ? heartSolid : heartRegular} onClick={handleFav}/>
-        
+          
         </div>
       </div>
     </>
