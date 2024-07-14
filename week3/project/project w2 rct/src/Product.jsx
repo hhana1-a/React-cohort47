@@ -18,6 +18,7 @@ export default function Product({ product, setActiveProductInfo }) {
   };
   
   return (
+  
     <li className='product-card'>
       <Link to={`/product/${product?.id}`} onClick={handleClick}> 
         <img src={product?.image} alt={product?.description} className='product-detail-img'/>
@@ -32,5 +33,6 @@ export default function Product({ product, setActiveProductInfo }) {
         <p className='product-title'>{product?.title}</p>
       </Link>
     </li>
+
   );
 };

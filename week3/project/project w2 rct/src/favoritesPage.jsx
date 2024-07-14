@@ -27,7 +27,6 @@ export default function FavoritesPage({ setActiveProductInfo }) {
         <div className='fav_cont'>
           {isLoading ? <p>Loading...</p> : favProducts.map(product => (
             <Product 
-              className='fav_prod'
               key={product.id}
               product={product}
               setActiveProductInfo={setActiveProductInfo}
